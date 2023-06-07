@@ -15,13 +15,13 @@
       major: "计算机科学与技术",
       degree: "幼儿园",
       date: "2006.9 - now",
-    ),
+    ), // Note: An array of length one needs a trailing comma, as in (1,)
     (
       school: "翻斗学前班",
       major: "计算机科学与技术",
       degree: "学前班",
       date: "2003.9 - 2006.6",
-    ) 
+    )
   )
 )
 
