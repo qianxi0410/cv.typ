@@ -4,6 +4,8 @@ email = "tutuhu@gmail.com"
 phone = "(+86) 820-820-8820"
 website = "https://www.wikiwand.com/zh/大耳朵图图"
 birthday = "2000.06.21"
+# 路径
+avatar = "" 
 
 [[educations]]
 school = "翻斗幼儿园"

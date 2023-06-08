@@ -53,7 +53,7 @@
 }
 
 
-#let cv(name: "", phone: "", email: "", birthday: "", website: "", body) = {
+#let cv(name: "", phone: "", email: "", birthday: "", website: "", avatar: "", body) = {
   set document(title: name)
   set page(paper: "a4", margin: (x: 2.1cm, y: 1.2cm))
   set text(font: "LXGW WenKai", 0.9em, weight: "regular");
@@ -61,9 +61,13 @@
 
   align(center)[
     // 名字
-    #let name-size = 2.4em
-    #text(weight: "black", name-size, name)
-    #v(-(name-size - 0.4em))
+    #block(text(weight: "black", 2.4em, name))
+    #if avatar != "" {
+      place(top + right, dy: -3em)[
+        #block(image(avatar), height: 5em, width: 6em)
+      ]
+    }
+    
 
     // 其他信息
     #set text(size: 0.9em)
