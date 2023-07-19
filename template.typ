@@ -147,8 +147,8 @@
         text(weight: "black", project.desc)
       }
 
-      #for point in project.points {
-        list(point)
+      #for point in project.points.map(x => "[" + x + "]")  {
+        list(eval(point))
       }
       #v(3pt)
     ]
@@ -168,8 +168,8 @@
       #h(1fr)
       #text(weight: "thin", emph(internship.date))
       
-      #for point in internship.points {
-        list(point)
+      #for point in internship.points.map(x => "[" + x + "]") {
+        list(eval(point))
       }
 
       #v(3pt)
