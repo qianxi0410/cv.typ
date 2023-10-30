@@ -5,7 +5,7 @@ phone = "(+86) 820-820-8820"
 website = "https://www.wikiwand.com/zh/大耳朵图图"
 birthday = "2000.06.21"
 # 路径
-avatar = "" 
+avatar = ""
 
 [[educations]]
 school = "翻斗幼儿园"
@@ -24,10 +24,7 @@ name = "Kubernetes"
 url = "https://github.com/kubernetes/kubernetes"
 date = "2014.6 - now"
 desc = "Kubernetes是一个开源的，用于管理云平台中多个主机上的容器化的应用"
-points = [
-    "负责Kubernetes的网络部分",
-    "负责Kubernetes的不知道什么部分"
-]
+points = ["负责Kubernetes的网络部分", "负责Kubernetes的不知道什么部分"]
 
 [[projects]]
 name = "Linux"
@@ -36,7 +33,7 @@ date = "2006.6 - 2022.6"
 desc = "Linux是一个开源的操作系统内核"
 points = [
     "负责Linux的文件系统部分，包括ext4, btrfs, xfs, f2fs",
-    "负责Linux的网络部分，包括TCP/IP, UDP, SCTP, DCCP, IPv4, IPv6"
+    "负责Linux的网络部分，包括TCP/IP, UDP, SCTP, DCCP, IPv4, IPv6",
 ]
 
 [[projects]]
@@ -44,36 +41,26 @@ name = "翻斗幼儿园每日打卡"
 url = ""
 date = "2019.12 - 2023.1"
 desc = ""
-points = [
-    "可以进行翻斗幼儿园每日打卡",
-    "在线用户超过20"
-]
+points = ["可以进行翻斗幼儿园每日打卡", "在线用户超过20"]
 
 [[internships]]
 company = "翻斗大街翻斗花园2号楼"
 jobtitle = "端茶倒水"
 date = "2022.4 - 2022.6"
-points = [
-    "负责端茶倒水",
-    "负责浇花",
-]
+points = ["负责端茶倒水", "负责浇花"]
 
 [[internships]]
 company = "翻斗幼儿园"
 jobtitle = "扮演小学生"
 date = "2022.4 - 2022.6"
-points = [
-    "和张小帅一起玩",
-    "和张小帅一起吃饭",
-    "和张小帅一起睡觉(误)"
-]
+points = ["和张小帅一起玩", "和张小帅一起吃饭", "和张小帅一起睡觉(误)"]
 
 [[awards]]
 name = "最佳编导奖（获奖）"
 date = "2006.11.8"
 
 [[awards]]
-name =  "优秀长篇美术片奖（获奖）"
+name = "优秀长篇美术片奖（获奖）"
 date = "2006.11.8"
 
 [[awards]]
